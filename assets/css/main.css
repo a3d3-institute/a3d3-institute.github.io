@@ -1772,7 +1772,10 @@ button,
       margin: 0 0 2em 0; }
       .posts article .image img {
         display: block;
-        width: 100%; }
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        }
   @media screen and (min-width: 1681px) {
     .posts article:nth-child(3n + 1):before {
       display: none; }
@@ -2271,3 +2274,5 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+
